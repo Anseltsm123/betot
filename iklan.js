@@ -22,4 +22,4 @@ const embed = new Discord.RichEmbed()
 }, 60000);
 console.log('iklan siap');
 
-client.login('ODQzMzQ1NTcxNzQxOTU4MTg0.YKCgxA.-0SDecEUfHSPu0ldTBJPfUCk69c');
+client.login('ODQzMzQ1NTcxNzQxOTU4MTg0.YKCgxA.WZIMeQYfssr0Ls-TH6rQDAgzAJg');
