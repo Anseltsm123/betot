@@ -3,6 +3,7 @@ const Enmap = require("enmap");
 const fs = require("fs");
 const db = require("quick.db");
 require ("./iklan.js")
+const token = require("./config.json")
 
 const client = new Discord.Client();
 const config = require("./config.json");
@@ -62,4 +63,4 @@ fs.readdir("./commands/", (err, files) => {
     });
 });
 
-client.login(process.env.TOKEN).catch(console.error);
+client.login(token).catch(console.error);
