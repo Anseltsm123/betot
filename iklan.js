@@ -1,7 +1,7 @@
 const Discord = require("discord.js")
 const client = new Discord.Client()
 const channel = "843444578803384363";
-const token = require("./config.json")
+const Token = require("./config.json")
 
 const iklan = require("./iklan.json")
       setInterval (() => {
@@ -23,4 +23,4 @@ const embed = new Discord.RichEmbed()
 }, 60000);
 console.log('iklan siap');
 
-client.login(token);
+client.login(Token.token);
